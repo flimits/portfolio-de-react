@@ -1,6 +1,11 @@
 # portfolio-de-react
 My portfolio done using react
 
+Some things i'm running with are
+Fontawesome (@fortawesome/fontawesome-free)
+and
+MDBootstrap (mdb-react-ui-kit)
+
 ##  Pseudo code Session
 
 * Refer to the first activity to create a React application using Vite

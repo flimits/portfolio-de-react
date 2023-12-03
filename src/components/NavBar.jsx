@@ -1,8 +1,6 @@
 import { Link, useLocation } from 'react-router-dom';
 
-
 function NavBar() {
-
     const currentPage = useLocation().pathname;
 
     return (
@@ -22,7 +20,6 @@ function NavBar() {
                 >
                     Portfolio
                 </Link>
-
             </li>
             <li className="nav-item">
                 <Link
@@ -30,13 +27,11 @@ function NavBar() {
                     className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
                 >
                     Contact
-
                 </Link>
             </li>
             <li className="nav-item">
                 <Link
                     to="/Resume"
-
                     className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}
                 >
                     Resume
