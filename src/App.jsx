@@ -1,5 +1,16 @@
-import PContainer from "./components/PContainer";
+import { Outlet } from 'react-router-dom';
+import NavBar from './components/NavBar';
 
-const App = () => <PContainer />;
+function App() {
+
+    return (
+        <>
+        <NavBar />
+        <main className="mx-3">
+            <Outlet />
+        </main>
+        </>
+    )
+}
 
 export default App;
