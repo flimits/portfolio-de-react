@@ -1,24 +1,46 @@
-function NavBar({ currentPage, makePageChange }) {
+import { Link, useLocation } from 'react-router-dom';
+
+
+function NavBar() {
+
+    const currentPage = useLocation().pathname;
+
     return (
         <ul className="nav nav-tabs">
-            <li className="nave-item">
-                <a href="#about"
-                    onClick={() => makePageChange('About')}
-                    className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+            <li className="nav-item">
+                <Link
+                    to="/"
+                    className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
                 >
                     About
-                </a>
+                </Link>
+            </li>
+            <li className="nav-item">
+                <Link
+                    to="/Portfolio"
+                    className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}
+                >
+                    Portfolio
+                </Link>
 
             </li>
-            <li className="nave-item">
-                <a
-                    href="#contact"
-                    onClick={() => makePageChange('Contact')}
-                    className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+            <li className="nav-item">
+                <Link
+                    to="/Contact"
+                    className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
                 >
                     Contact
 
-                </a>
+                </Link>
+            </li>
+            <li className="nav-item">
+                <Link
+                    to="/Resume"
+
+                    className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}
+                >
+                    Resume
+                </Link>
             </li>
         </ul>
     );
