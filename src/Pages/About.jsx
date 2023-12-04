@@ -1,10 +1,26 @@
-export default function About() {
-    return (
-        <div>
-            <h1>About Me</h1>
-            <p>
-            By trade for 15 years I had started out as a Systems administrator on Linux computures. This turned into Systems Engineering, building and maintaining networks between data centers and the local business, which also started to be more hybrid where Cloud Computing was being introduced, but physical data center. Which then led me into breaking into full time AWS Cloud Compute for the last 4 years of my career, which was a water-shed moment between virtual and phycial computing (and data-centers). Thus, I am now going into Software Developement to up my game in the technology world. What a challenge and struggle and great career change (but looking forward to the resume addition).
-            </p>
-        </div>
-    );
-}
+import '../App.css';
+
+
+const About = () => {
+  return (
+    <div className="about-me-container">
+      <div className="about-me-content">
+        <h2 className="section-title">About Me</h2>
+        <p>
+          Welcome to my portfolio! I'm passionate about web development and enjoy creating
+          meaningful and interactive experiences for users.
+        </p>
+        <p>
+          With a strong foundation in JavaScript, React, and other modern web technologies,
+          I strive to build elegant and efficient solutions to real-world problems.
+        </p>
+        <p>
+          Feel free to explore my projects and get in touch if you have any questions or
+          collaboration opportunities.
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default About;

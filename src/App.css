@@ -1,0 +1,51 @@
+.portfolio-card {
+    overflow: hidden;
+    /* Hide overflowing content */
+}
+
+.portfolio-card .card-body {
+    opacity: 0;
+    /* Set initial opacity to 0 to hide */
+    transition: opacity 0.3s ease-in-out;
+    /* Add a smooth transition effect */
+}
+
+.portfolio-card:hover .card-body {
+    opacity: 1;
+    /* Show on hover */
+}
+
+.portfolio-card a {
+    color: black;
+    /* Set the initial color of the links */
+    transition: color 0.3s ease-in-out;
+    /* Add a smooth transition effect */
+}
+
+.portfolio-card:hover a {
+    color: red;
+    /* Change color on hover */
+}
+
+/* AboutMe.css */
+
+.about-me-container {
+    padding: 20px;
+  }
+  
+  .about-me-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .section-title {
+    color: #007BFF;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
