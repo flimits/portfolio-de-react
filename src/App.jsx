@@ -6,16 +6,16 @@ import Footer from './components/Footer4';
 
 
 function App() {
-
     return (
         <>
             <NavBar />
-            <main className="mx-3">
+            <main className="mx-3" style={{ paddingBottom: '60px' }}>
                 <Outlet />
             </main>
-            <Footer /> {/* Corrected component name */}
+            <Footer />
         </>
     )
 }
+
 
 export default App;

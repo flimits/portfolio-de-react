@@ -9,7 +9,8 @@ import {
 } from 'mdb-react-ui-kit';
 
 const Footer = () => (
-    <MDBFooter className='text-center text-white' style={{ backgroundColor: '#f1f1f1' }}>
+          <MDBFooter className='text-center text-white' style={{ backgroundColor: '#f1f1f1', position: 'fixed', bottom: 0, width: '100%' }}>
+
         <MDBContainer className='pt-4'>
             <section className='mb-4'>
                 <MDBBtn
@@ -87,9 +88,9 @@ const Footer = () => (
         </MDBContainer>
 
         <div className='text-center text-dark p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-            © 2020 Copyright:
-            <a className='text-dark' href='https://mdbootstrap.com/'>
-                MDBootstrap.com
+            © 2023 Copyright:
+            <a className='text-dark' href='https://github.com/flimits/portfolio-de-react'>
+                Jason Savoie
             </a>
         </div>
     </MDBFooter>
