@@ -8,6 +8,9 @@ import '../App.css';
 import project1Image from '../images/gonuts_donuts.png';
 import project2Image from '../images/horiseon_homework_front_page.jpg';
 import project3Image from '../images/deer.jpeg';
+import project4Image from '/images/jate_running_in_browswer.png';
+import project5Image from '/images/weatherapp.openpage.png';
+import project6Image from '/images/friends_allusers.png';
 
 export default function Portfolio() {
   const portfolios = [
@@ -28,6 +31,24 @@ export default function Portfolio() {
       description: 'This was a simple web page in the beginning to learn how to build borders around an image and add some text.',
       myImage: project3Image,
       link: 'https://github.com/flimits/project26'
+    },
+    {
+      title: 'ATE (PWA)',
+      description: '(just) Another Text Editor, deployed to Heroku',
+      myImage: project4Image,
+      link: 'https://github.com/flimits/ate'
+    },
+    {
+      title: 'Gimme The Weather',
+      description: 'A Weather API to get the Weather anywhere in US',
+      myImage: project5Image,
+      link: 'https://github.com/flimits/gimmetheweather'
+    },
+    {
+      title: 'Friends and Thoughts DB',
+      description: 'Building a MongoDB using Mongoose and NodeJS',
+      myImage: project6Image,
+      link: 'https://github.com/flimits/friends_and_thoughts'
     }
   ]
   // What this below is doing is the xs helps small screens to display in columns.
