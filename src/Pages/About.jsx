@@ -1,19 +1,21 @@
 // ... (your existing imports)
 
 import React from 'react';
-import '../App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../About.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHiking, faFish, faCoffee, faPlane } from '@fortawesome/free-solid-svg-icons';
 import portfolioImage from '../images/jason_dressedup_profile_120223.png';
 
+
 const About = () => {
   return (
-    <div className="about-me-container">
-      <div className="about-me-content">
-        <a href="">
-          <img src={portfolioImage} className="portfolio-image" alt="Portfolio" />
-        </a>
-        <div className="about-text">
+    <div className="col">
+      <div className="row">
+        <div className='col-6'>
+        <a href=""><img src={portfolioImage} className="about-image" alt="Portfolio Picture" /></a>
+        </div>
+        <div className="col-6 about-text">
           <h2 className="section-title">About Me</h2>
           <p>
             Welcome to my portfolio! I'm passionate about web development and enjoy creating
