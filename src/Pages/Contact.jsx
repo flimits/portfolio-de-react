@@ -15,7 +15,7 @@ const ContactCard = () => {
     setSubmitted(true);
     setName('');
     setEmail('');
-    setMessage('');
+    setMeessag('');
   };
 
   const cardStyle = {

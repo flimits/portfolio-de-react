@@ -1,6 +1,8 @@
 # portfolio-de-react
 My portfolio done using react
 
+The site is deployed on Netlify at https://spontaneous-arithmetic-87971e.netlify.app/
+
 Some things i'm running with are
 Fontawesome (@fortawesome/fontawesome-free)
 and

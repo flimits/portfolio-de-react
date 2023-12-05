@@ -4,12 +4,12 @@ import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-k
 
 const Footer = () => (
     <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
-        <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
-            <div className='me-5 d-none d-lg-block'>
+        <section className='d-flex justify-content-center justify-content-lg-center p-4 border-bottom'>
+            <div className='me-lg-5'>
                 <span>Get connected with me on social networks:</span>
             </div>
 
-            <div>
+            <div className='d-flex justify-content-center'>
                 <a href='https://twitter.com/flimits' target="_blank" className='me-4 text-reset'>
                     <MDBIcon fab icon="twitter" />
                 </a>

@@ -7,6 +7,7 @@ function NavBar() {
         backgroundColor: 'teal',
         padding: '10px',
         margin: '5px',
+        maxWidth: '100%',
     };
 
     const linkStyle = {
@@ -24,7 +25,7 @@ function NavBar() {
     return (
         <div className="container" style={navbarStyle}>
             <div className="row ">
-                <div className="col-md-6 bg-light border">
+                <div className="col-md-6">
                     <h1 style={nameStyle}>Jason Savoie</h1>
                 </div>
                 <div className="col-md-6">

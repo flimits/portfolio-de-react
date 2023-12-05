@@ -38,7 +38,7 @@ export default function Portfolio() {
       {portfolios.map((item, idx) => (
         <Col key={idx}>
           <Card className="portfolio-card">
-            <Card.Img variant="top" src={item.myImage} alt={`Image for ${item.title}`} />
+            <Card.Img className="portfolio-image" variant="top" src={item.myImage} alt={`Image for ${item.title}`} />
             <Card.Body>
               <Card.Title>{item.title}</Card.Title>
               <Card.Text>{item.description}</Card.Text>
